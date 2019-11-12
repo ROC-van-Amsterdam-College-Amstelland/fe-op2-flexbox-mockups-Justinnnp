@@ -10,6 +10,7 @@ header{
     width: 100%;
     height: 10%;
     background-color: green;
+    border: 1px solid black;
 }
 
 main{
@@ -25,7 +26,8 @@ main{
     width: 100px;
     height: 50px;
     background-color: white;
-    margin: 30px;
+    margin: 10px;
+    border: 1px solid black;
 }
 
 h1{
