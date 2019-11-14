@@ -1,3 +1,67 @@
-html, body{
+html, body {
     height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background: green;
+}
+
+.white-box {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    background: white;
+}
+
+.images-main {
+    background: orange;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.img {
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgtext {
+    display: flex;
+    padding-left: 200px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.row-red {
+    display: flex;
+    flex-direction: row;
+    background: blue;
+    height: 170px;
+}
+
+.row-blue {
+    background: red;
+    height: 170px;
+    width: 50%;
+    border-right: 60px solid white;
 }
