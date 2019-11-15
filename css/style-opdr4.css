@@ -11,7 +11,7 @@ html, body {
     padding-top: 20px;
     padding-left: 10px;
     padding-bottom: 20px;
-    background: green;
+    background: #009E0F;
 }
 
 .white-box {
@@ -25,7 +25,7 @@ html, body {
 }
 
 .images-main {
-    background: orange;
+    background: #FF9900;
     height: 500px;
     width: 100%;
     display: flex;
@@ -55,12 +55,12 @@ a {
 .row-red {
     display: flex;
     flex-direction: row;
-    background: blue;
+    background: #2B78E4;
     height: 170px;
 }
 
 .row-blue {
-    background: red;
+    background: #CF2A27;
     height: 170px;
     width: 50%;
     border-right: 60px solid white;
